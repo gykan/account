@@ -1,5 +1,5 @@
 @Library('build-library') _
 standardBuild {
-    test = 'exit'
+    test = 'echo "skip test"'
     upload = 'echo "upload aaaa"'
 }
