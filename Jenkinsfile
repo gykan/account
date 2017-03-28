@@ -1,5 +1,7 @@
 @Library('build-library') _
 standardBuild {
-    test = 'echo "skip test"'
-    upload = 'echo "upload aaaa"'
+    test = false
+    regression = false
+    upload = false
+    deploy = false
 }
